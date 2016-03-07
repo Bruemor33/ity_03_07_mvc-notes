@@ -29,6 +29,8 @@ people.each(function(person){
   person.sayName();
 })
 
+$('.container').html()
+
 console.log(jimmy);
 
 console.log(jimmy.get('age')); //using .get() is one way we can get data out of our model.
